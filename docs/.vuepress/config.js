@@ -11,8 +11,8 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '前端', link: '/font/' },
       { text: '面试', link: '/interview/' },
-      { text: 'External', link: 'https://foreverheart.com' },
-      { text: 'gitHub', link: 'https://github.com/foreveheart' },
+      { text: 'External', link: 'http://foreverheart.top' },
+      { text: 'gitHub', link: 'https://github.com/abner-jlm/markdown' },
     ],
     sidebarDepth: 2,
     sidebar: {
