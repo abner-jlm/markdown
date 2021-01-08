@@ -15,9 +15,9 @@
 
 1. 优化方面
 
- - 图片引入 ![照片](~@image/longze.jpg)
+ <!-- - 图片引入 ![照片](~@image/longze.jpg)
  - 图片引入 [照片](~@alias/longze.jpg)
- - [An image](~@image/image.png "链接标题阿")
+ - [An image](~@image/image.png "链接标题阿") -->
 
  姓名|年龄|性别
  :--|---|---
