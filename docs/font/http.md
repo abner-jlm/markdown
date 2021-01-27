@@ -46,7 +46,8 @@ ETag扩展说明
 Etag是服务器自动生成或者由开发者生成的对应资源在服务器端的唯一标识符，能够更加准确的控制缓存。Last-Modified与ETag是可以一起使用的，服务器会优先验证ETag，一致的情况下，才会继续比对Last-Modified，最后才决定是否返回304。
 
 
-<img :src="$withBase('/assets/img/http-cache.png')" alt="mixureSecure">
+
+- http 缓存图解 ![http 缓存图解](/assets/img/http-cache.png)
 
 ## http安全
 1. xss攻击 

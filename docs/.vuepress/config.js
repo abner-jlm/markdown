@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],
-  base: '/',
+  base: '/doc',
   port: 9090,
   themeConfig: {
     nav: [
@@ -29,7 +29,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@image': '/assets/img',
+        'image': '/assets/img',
         '@alias': '/'
       }
     }

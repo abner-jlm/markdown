@@ -1,2 +1,2 @@
 # hello 
-<a href="/font" >前端</a>
+<a href="./font" >前端</a>
