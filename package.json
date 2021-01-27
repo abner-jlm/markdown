@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "start": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "name": "markdown",
@@ -9,9 +9,12 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  },
   "devDependencies": {
-    "vuepress":"^1.8.0" 
+    "vuepress": "^1.8.0"
   },
   "repository": {
     "type": "git",
