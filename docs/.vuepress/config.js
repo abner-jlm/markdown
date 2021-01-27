@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],
-  base: '/doc/',
+  base: '/',
   port: 9090,
   themeConfig: {
     nav: [
